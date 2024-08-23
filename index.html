@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilado de Inteligências Artificiais</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verifique o caminho do CSS -->
+</head>
+<body>
+    <header>
+        <h1>Inteligências artificiais para ser 10x mais produtivo</h1>
+        <select id="category-filter">
+            <option value="">Todas as Categorias</option>
+            <!-- As opções serão adicionadas dinamicamente -->
+        </select><br>
+        <button class="btn-enviar-sugestao">Enviar Sugestão de IA</button>
+    </header><br>
+    <div class="imagem-container">
+        <a href="https://go.hotmart.com/W95104804R" target="_blank">
+
+            <img src="img.jpg" alt="curso prompt IA" >
+        </a>
+    </div>
+    
+    <main id="ai-list">
+        <!-- AIs serão listadas aqui -->
+    </main>
+    <div id="modalSugestao" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">Enviar Sugestão de IA</div>
+            <input type="text" id="tituloIA" placeholder="Título da IA">
+            <input type="text" id="linkIA" placeholder="Link da IA">
+            <textarea id="descricaoIA" placeholder="Descrição da IA"></textarea>
+            <button id="fecharModal" class="btn-close">Fechar</button>
+            <button id="enviarSugestao" class="btn-submit">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Verifique o caminho do JS -->
+</body>
+</html>

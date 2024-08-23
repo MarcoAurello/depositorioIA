@@ -1,0 +1,210 @@
+/* Reset de estilo para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid rgba(46, 139, 255, 0.6); /* Borda com contraste */
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header input[type="text"],
+header select {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: #1c1c1c; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+header input[type="text"]::placeholder {
+    color: #888; /* Placeholder mais suave */
+}
+
+header input[type="text"]:focus,
+header select:focus {
+    outline: none;
+    box-shadow: 0 4px 12px rgba(46, 139, 255, 0.3); /* Destaque ao focar */
+    background-color: #292929; /* Fundo mais claro ao focar */
+}
+
+header select {
+    background: #1c1c1c;
+    color: #e0e0e0;
+}
+
+header select option {
+    padding: 10px;
+    background-color: #121212; /* Opções com fundo escuro */
+    color: #e0e0e0;
+}
+
+main {
+    padding: 20px;
+}
+
+.ai-card {
+    background: #1c1c1c; /* Fundo escuro */
+    border: 1px solid #333; /* Borda sutil */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra mais intensa */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ai-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Destaque ao passar o mouse */
+}
+
+.ai-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ai-card p {
+    margin-bottom: 10px;
+}
+
+.ai-card a {
+    color: #4da6ff; /* Links em azul claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ai-card a:hover {
+    text-decoration: underline;
+}
+
+.btn-enviar-sugestao {
+    padding: 10px 20px;
+    background-color: #4da6ff; /* Botão azul claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-enviar-sugestao:hover {
+    background-color: #3381cc; /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+/* Estilos do modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para o modal */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #1c1c1c; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.modal-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.modal input,
+.modal textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #121212; /* Fundo escuro dos inputs */
+    color: #e0e0e0;
+}
+
+.modal .btn-close {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal .btn-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imagem-container img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Layout responsivo para as cards */
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .ai-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .ai-card {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+}
