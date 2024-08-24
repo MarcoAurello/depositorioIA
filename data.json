@@ -21,6 +21,13 @@
         "imagem": "https://piktochart.com/images/piktochart.jpg"
     },
     {
+        "nome": "Piktochart",
+        "descricao": "Crie infográficos e apresentações visuais de maneira simples.",
+        "categoria": "Criação de Apresentações.",
+        "link": "https://piktochart.com/",
+        "imagem": "https://piktochart.com/images/piktochart.jpg"
+    },
+    {
         "nome": "Designify",
         "descricao": "Criação automática de logomarcas e design gráfico com IA.",
         "categoria": "Design Gráfico",
