@@ -4,6 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Reseta estilos básicos e define o layout de base */
+body, h1, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Define o estilo para o header */
+  header {
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo clara para o header */
+    text-align: center; /* Centraliza o texto e outros elementos */
+  }
+  
+  /* Ajusta o tamanho da fonte do h1 para caber na tela em dispositivos móveis */
+  header h1 {
+    font-size: 24px; /* Tamanho da fonte padrão */
+    margin-bottom: 10px; /* Espaçamento abaixo do h1 */
+  }
+  
+  /* Estiliza o select e o botão */
+  header select, header button {
+    font-size: 16px; /* Tamanho da fonte dos elementos */
+    padding: 10px;
+    margin: 10px 0; /* Espaçamento vertical */
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 20px; /* Diminui o tamanho da fonte em telas menores */
+    }
+  
+    header select, header button {
+      font-size: 14px; /* Diminui o tamanho da fonte para melhorar a legibilidade */
+      width: 100%; /* Faz com que o select e o botão ocupem toda a largura disponível */
+    }
+  }
+  
+  /* Adicionalmente, você pode ajustar o botão para torná-lo mais responsivo */
+  .btn-enviar-sugestao {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha quando passa sobre o botão */
+  }
+  
+  .btn-enviar-sugestao:hover {
+    background-color: #0056b3; /* Cor de fundo do botão quando está em foco */
+  }
+  
 
 body {
     font-family: 'Arial', sans-serif;
