@@ -14,69 +14,6 @@
         "imagem": "https://www.lumen5.com/images/lumen5-video.jpg"
     },
     {
-        "nome": "Piktochart",
-        "descricao": "Crie infográficos e apresentações visuais de maneira simples.",
-        "categoria": "Criação de Apresentações",
-        "link": "https://piktochart.com/",
-        "imagem": "https://piktochart.com/images/piktochart.jpg"
-    },
-    {
-        "nome": "Piktochart",
-        "descricao": "Crie infográficos e apresentações visuais de maneira simples.",
-        "categoria": "Criação de Apresentações.",
-        "link": "https://piktochart.com/",
-        "imagem": "https://piktochart.com/images/piktochart.jpg"
-    },
-    {
-        "nome": "Designify",
-        "descricao": "Criação automática de logomarcas e design gráfico com IA.",
-        "categoria": "Design Gráfico",
-        "link": "https://designify.com/",
-        "imagem": "https://designify.com/images/designify.jpg"
-    },
-    {
-        "nome": "Beautiful.AI",
-        "descricao": "Crie apresentações inteligentes que se adaptam automaticamente ao seu conteúdo.",
-        "categoria": "Criação de Apresentações",
-        "link": "https://www.beautiful.ai/",
-        "imagem": "https://www.beautiful.ai/assets/images/beautiful-ai.jpg"
-    },
-    {
-        "nome": "Copy.ai",
-        "descricao": "Gere rapidamente textos e conteúdos para documentos.",
-        "categoria": "Geração de Documentos",
-        "link": "https://www.copy.ai/",
-        "imagem": "https://www.copy.ai/assets/images/copy-ai.jpg"
-    },
-    {
-        "nome": "Jasper AI",
-        "descricao": "Criação de textos e artigos completos com auxílio de IA.",
-        "categoria": "Geração de Documentos",
-        "link": "https://www.jasper.ai/",
-        "imagem": "https://www.jasper.ai/images/jasper.jpg"
-    },
-    {
-        "nome": "Visme",
-        "descricao": "Ferramenta para criar apresentações, gráficos e documentos.",
-        "categoria": "Criação de Apresentações",
-        "link": "https://www.visme.co/",
-        "imagem": "https://www.visme.co/images/visme.jpg"
-    },
-    {
-        "nome": "Notion AI",
-        "descricao": "Automatize a criação de documentos e fluxos de trabalho com IA.",
-        "categoria": "Organização e Produtividade",
-        "link": "https://www.notion.so/product/ai",
-        "imagem": "https://www.notion.so/images/notion-ai.jpg"
-    },
-    {
-        "nome": "Flowrite",
-        "descricao": "Gere e-mails e documentos de maneira rápida e eficaz.",
-        "categoria": "Geração de Documentos",
-        "link": "https://www.flowrite.com/",
-        "imagem": "https://www.flowrite.com/images/flowrite.jpg"
-    },
-    {
         "nome": "Pictory",
         "descricao": "Transforma automaticamente conteúdo longo em vídeos envolventes.",
         "categoria": "Criação de Vídeos",
@@ -91,67 +28,11 @@
         "imagem": "https://animoto.com/logo.png"
     },
     {
-        "nome": "Tome",
-        "descricao": "Transforme textos em apresentações visuais de forma rápida e fácil.",
-        "categoria": "Criação de Apresentações",
-        "link": "https://tome.app",
-        "imagem": "https://tome.app/logo.png"
-    },
-    {
-        "nome": "Logomaster",
-        "descricao": "Gere logomarcas profissionais em minutos com a ajuda de IA.",
-        "categoria": "Criação de Logomarcas",
-        "link": "https://www.logomaster.ai",
-        "imagem": "https://www.logomaster.ai/logo.png"
-    },
-    {
-        "nome": "Looka",
-        "descricao": "Crie logomarcas e identidades visuais completas usando IA.",
-        "categoria": "Criação de Logomarcas",
-        "link": "https://looka.com",
-        "imagem": "https://looka.com/logo.png"
-    },
-    {
-        "nome": "FlowMapp",
-        "descricao": "Crie fluxos de trabalho e mapas de sites de forma colaborativa.",
-        "categoria": "Criação de Fluxos de Trabalho",
-        "link": "https://www.flowmapp.com",
-        "imagem": "https://www.flowmapp.com/logo.png"
-    },
-    {
-        "nome": "Whimsical",
-        "descricao": "Criação de fluxogramas e wireframes de maneira simples e colaborativa.",
-        "categoria": "Criação de Fluxos de Trabalho",
-        "link": "https://whimsical.com",
-        "imagem": "https://whimsical.com/logo.png"
-    },
-    {
-        "nome": "Milanote",
-        "descricao": "Organize suas ideias e crie projetos visuais de forma intuitiva.",
-        "categoria": "Organização e Fluxos de Trabalho",
-        "link": "https://milanote.com",
-        "imagem": "https://milanote.com/logo.png"
-    },
-    {
-        "nome": "Writesonic",
-        "descricao": "Criação de conteúdo escrito rapidamente com a ajuda de IA.",
-        "categoria": "Criação de Documentos",
-        "link": "https://writesonic.com",
-        "imagem": "https://writesonic.com/logo.png"
-    },
-    {
-        "nome": "Rytr",
-        "descricao": "Gere conteúdo escrito em diferentes tons e estilos com IA.",
-        "categoria": "Criação de Documentos",
-        "link": "https://rytr.me",
-        "imagem": "https://rytr.me/logo.png"
-    },
-    {
-        "nome": "Murphy",
-        "descricao": "Crie apresentações de slides rapidamente com a ajuda de IA.",
-        "categoria": "Criação de Apresentações",
-        "link": "https://murphy.ai",
-        "imagem": "https://murphy.ai/logo.png"
+        "nome": "InVideo",
+        "descricao": "Criação e edição de vídeos online com templates alimentados por IA.",
+        "categoria": "Criação e Edição de Vídeos",
+        "link": "https://invideo.io",
+        "imagem": "https://invideo.io/logo.png"
     },
     {
         "nome": "Veed.io",
@@ -168,6 +49,111 @@
         "imagem": "https://www.descript.com/logo.png"
     },
     {
+        "nome": "Piktochart",
+        "descricao": "Crie infográficos e apresentações visuais de maneira simples.",
+        "categoria": "Criação de Apresentações",
+        "link": "https://piktochart.com/",
+        "imagem": "https://piktochart.com/images/piktochart.jpg"
+    },
+    {
+        "nome": "Beautiful.AI",
+        "descricao": "Crie apresentações inteligentes que se adaptam automaticamente ao seu conteúdo.",
+        "categoria": "Criação de Apresentações",
+        "link": "https://www.beautiful.ai/",
+        "imagem": "https://www.beautiful.ai/assets/images/beautiful-ai.jpg"
+    },
+    {
+        "nome": "Visme",
+        "descricao": "Ferramenta para criar apresentações, gráficos e documentos.",
+        "categoria": "Criação de Apresentações",
+        "link": "https://www.visme.co/",
+        "imagem": "https://www.visme.co/images/visme.jpg"
+    },
+    {
+        "nome": "Tome",
+        "descricao": "Transforme textos em apresentações visuais de forma rápida e fácil.",
+        "categoria": "Criação de Apresentações",
+        "link": "https://tome.app",
+        "imagem": "https://tome.app/logo.png"
+    },
+    {
+        "nome": "Murphy",
+        "descricao": "Crie apresentações de slides rapidamente com a ajuda de IA.",
+        "categoria": "Criação de Apresentações",
+        "link": "https://murphy.ai",
+        "imagem": "https://murphy.ai/logo.png"
+    },
+    {
+        "nome": "Designify",
+        "descricao": "Criação automática de logomarcas e design gráfico com IA.",
+        "categoria": "Design Gráfico",
+        "link": "https://designify.com/",
+        "imagem": "https://designify.com/images/designify.jpg"
+    },
+    {
+        "nome": "Logomaster",
+        "descricao": "Gere logomarcas profissionais em minutos com a ajuda de IA.",
+        "categoria": "Criação de Logomarcas",
+        "link": "https://www.logomaster.ai",
+        "imagem": "https://www.logomaster.ai/logo.png"
+    },
+    {
+        "nome": "Looka",
+        "descricao": "Crie logomarcas e identidades visuais completas usando IA.",
+        "categoria": "Criação de Logomarcas",
+        "link": "https://looka.com",
+        "imagem": "https://looka.com/logo.png"
+    },
+    {
+        "nome": "Copy.ai",
+        "descricao": "Gere rapidamente textos e conteúdos para documentos.",
+        "categoria": "Geração de Documentos",
+        "link": "https://www.copy.ai/",
+        "imagem": "https://www.copy.ai/assets/images/copy-ai.jpg"
+    },
+    {
+        "nome": "Jasper AI",
+        "descricao": "Criação de textos e artigos completos com auxílio de IA.",
+        "categoria": "Geração de Documentos",
+        "link": "https://www.jasper.ai/",
+        "imagem": "https://www.jasper.ai/images/jasper.jpg"
+    },
+    {
+        "nome": "Flowrite",
+        "descricao": "Gere e-mails e documentos de maneira rápida e eficaz.",
+        "categoria": "Geração de Documentos",
+        "link": "https://www.flowrite.com/",
+        "imagem": "https://www.flowrite.com/images/flowrite.jpg"
+    },
+    {
+        "nome": "Writesonic",
+        "descricao": "Criação de conteúdo escrito rapidamente com a ajuda de IA.",
+        "categoria": "Criação de Documentos",
+        "link": "https://writesonic.com",
+        "imagem": "https://writesonic.com/logo.png"
+    },
+    {
+        "nome": "Rytr",
+        "descricao": "Gere conteúdo escrito em diferentes tons e estilos com IA.",
+        "categoria": "Criação de Documentos",
+        "link": "https://rytr.me",
+        "imagem": "https://rytr.me/logo.png"
+    },
+    {
+        "nome": "Notion AI",
+        "descricao": "Automatize a criação de documentos e fluxos de trabalho com IA.",
+        "categoria": "Organização e Produtividade",
+        "link": "https://www.notion.so/product/ai",
+        "imagem": "https://www.notion.so/images/notion-ai.jpg"
+    },
+    {
+        "nome": "Milanote",
+        "descricao": "Organize suas ideias e crie projetos visuais de forma intuitiva.",
+        "categoria": "Organização e Fluxos de Trabalho",
+        "link": "https://milanote.com",
+        "imagem": "https://milanote.com/logo.png"
+    },
+    {
         "nome": "Scribe",
         "descricao": "Gere fluxos de trabalho passo a passo de maneira automática.",
         "categoria": "Criação de Fluxos de Trabalho",
@@ -175,25 +161,32 @@
         "imagem": "https://scribehow.com/logo.png"
     },
     {
-        "nome": "Updf",
-        "descricao": "Crie e edite documentos PDF de maneira eficiente.",
-        "categoria": "Criação de Documentos",
-        "link": "https://updf.com",
-        "imagem": "https://updf.com/logo.png"
+        "nome": "FlowMapp",
+        "descricao": "Crie fluxos de trabalho e mapas de sites de forma colaborativa.",
+        "categoria": "Criação de Fluxos de Trabalho",
+        "link": "https://www.flowmapp.com",
+        "imagem": "https://www.flowmapp.com/logo.png"
     },
     {
-        "nome": "AI Dungeon",
-        "descricao": "Gere histórias interativas e aventuras com IA.",
-        "categoria": "Entretenimento e Criação de Conteúdo",
-        "link": "https://play.aidungeon.io",
-        "imagem": "https://play.aidungeon.io/logo.png"
+        "nome": "Whimsical",
+        "descricao": "Criação de fluxogramas e wireframes de maneira simples e colaborativa.",
+        "categoria": "Criação de Fluxos de Trabalho",
+        "link": "https://whimsical.com",
+        "imagem": "https://whimsical.com/logo.png"
     },
     {
-        "nome": "InVideo",
-        "descricao": "Criação e edição de vídeos online com templates alimentados por IA.",
-        "categoria": "Criação e Edição de Vídeos",
-        "link": "https://invideo.io",
-        "imagem": "https://invideo.io/logo.png"
+        "nome": "DALL-E",
+        "descricao": "Gere imagens a partir de descrições textuais com a IA da OpenAI.",
+        "categoria": "Criação de Imagens",
+        "link": "https://openai.com/dall-e",
+        "imagem": "https://openai.com/dall-e/logo.png"
+    },
+    {
+        "nome": "Midjourney",
+        "descricao": "Criação de imagens através de prompts textuais usando IA.",
+        "categoria": "Criação de Imagens",
+        "link": "https://midjourney.com",
+        "imagem": "https://midjourney.com/logo.png"
     },
     {
         "nome": "DeepArt.io",
@@ -210,17 +203,164 @@
         "imagem": "https://www.artbreeder.com/logo.png"
     },
     {
-        "nome": "DALL-E",
-        "descricao": "Gere imagens a partir de descrições textuais com a IA da OpenAI.",
-        "categoria": "Criação de Imagens",
-        "link": "https://openai.com/dall-e",
-        "imagem": "https://openai.com/dall-e/logo.png"
+        "nome": "Runway ML",
+        "descricao": "Criação de vídeos, imagens e modelos 3D usando IA.",
+        "categoria": "Criação de Imagens e Modelagem 3D",
+        "link": "https://runwayml.com",
+        "imagem": "https://runwayml.com/logo.png"
     },
     {
-        "nome": "Midjourney",
-        "descricao": "Criação de imagens através de prompts textuais usando IA.",
+        "nome": "NightCafe",
+        "descricao": "Geração de arte digital a partir de descrições textuais.",
         "categoria": "Criação de Imagens",
-        "link": "https://midjourney.com",
-        "imagem": "https://midjourney.com/logo.png"
+        "link": "https://creator.nightcafe.studio/",
+        "imagem": "https://creator.nightcafe.studio/images/nightcafe.jpg"
+    },
+    {
+        "nome": "Adobe Firefly",
+        "descricao": "Suite de ferramentas de design e criação de imagens com IA.",
+        "categoria": "Design Gráfico",
+        "link": "https://www.adobe.com/sensei/guides/firefly.html",
+        "imagem": "https://www.adobe.com/sensei/guides/firefly/logo.png"
+    },
+    {
+        "nome": "Canva",
+        "descricao": "Crie e edite gráficos e imagens com ferramentas alimentadas por IA.",
+        "categoria": "Design Gráfico",
+        "link": "https://www.canva.com",
+        "imagem": "https://www.canva.com/logo.png"
+    },
+    {
+        "nome": "Kandinsky",
+        "descricao": "Criação de imagens através de algoritmos de arte generativa.",
+        "categoria": "Criação de Imagens",
+        "link": "https://kandinsky.ai",
+        "imagem": "https://kandinsky.ai/logo.png"
+    },
+    {
+        "nome": "Topaz Labs",
+        "descricao": "Melhore a qualidade de suas fotos e vídeos com IA.",
+        "categoria": "Edição de Imagens",
+        "link": "https://www.topazlabs.com",
+        "imagem": "https://www.topazlabs.com/logo.png"
+    },
+    {
+        "nome": "Pixelcut",
+        "descricao": "Ferramenta de edição de imagens para criar conteúdo visual.",
+        "categoria": "Edição de Imagens",
+        "link": "https://www.pixelcut.com",
+        "imagem": "https://www.pixelcut.com/logo.png"
+    },
+    {
+        "nome": "Gigapixel AI",
+        "descricao": "Amplie imagens sem perda de qualidade usando IA.",
+        "categoria": "Edição de Imagens",
+        "link": "https://www.topazlabs.com/gigapixel-ai",
+        "imagem": "https://www.topazlabs.com/gigapixel-ai/logo.png"
+    },
+    {
+        "nome": "Remini",
+        "descricao": "Melhore a qualidade de suas fotos antigas com IA.",
+        "categoria": "Edição de Imagens",
+        "link": "https://www.remini.ai",
+        "imagem": "https://www.remini.ai/logo.png"
+    },
+    {
+        "nome": "AI Dungeon",
+        "descricao": "Jogo interativo onde a história é gerada dinamicamente por IA.",
+        "categoria": "Entretenimento",
+        "link": "https://play.aidungeon.io",
+        "imagem": "https://play.aidungeon.io/logo.png"
+    },
+    {
+        "nome": "Charisma.ai",
+        "descricao": "Crie personagens interativos e narrativas dinâmicas com IA.",
+        "categoria": "Entretenimento",
+        "link": "https://charisma.ai",
+        "imagem": "https://charisma.ai/logo.png"
+    },
+    {
+        "nome": "Replika",
+        "descricao": "Companhia virtual alimentada por IA que aprende e evolui com você.",
+        "categoria": "Entretenimento",
+        "link": "https://replika.ai",
+        "imagem": "https://replika.ai/logo.png"
+    },
+    {
+        "nome": "AIVA",
+        "descricao": "Geração de música original baseada em estilos e preferências.",
+        "categoria": "Música",
+        "link": "https://www.aiva.ai",
+        "imagem": "https://www.aiva.ai/logo.png"
+    },
+    {
+        "nome": "Amper Music",
+        "descricao": "Criação de trilhas sonoras personalizadas com IA.",
+        "categoria": "Música",
+        "link": "https://www.ampermusic.com",
+        "imagem": "https://www.ampermusic.com/logo.png"
+    },
+    {
+        "nome": "Soundraw",
+        "descricao": "Crie músicas originais instantaneamente com IA.",
+        "categoria": "Música",
+        "link": "https://soundraw.io",
+        "imagem": "https://soundraw.io/logo.png"
+    },
+    {
+        "nome": "Lalal.ai",
+        "descricao": "Separe vozes e instrumentais de músicas usando IA.",
+        "categoria": "Música",
+        "link": "https://www.lalal.ai",
+        "imagem": "https://www.lalal.ai/logo.png"
+    },
+    {
+        "nome": "Shutterstock AI",
+        "descricao": "Pesquisa de imagens e vídeos mais precisas com IA.",
+        "categoria": "Banco de Imagens",
+        "link": "https://www.shutterstock.com/ai",
+        "imagem": "https://www.shutterstock.com/ai/logo.png"
+    },
+    {
+        "nome": "Remove.bg",
+        "descricao": "Remova o fundo de suas imagens instantaneamente com IA.",
+        "categoria": "Edição de Imagens",
+        "link": "https://www.remove.bg",
+        "imagem": "https://www.remove.bg/logo.png"
+    },
+    {
+        "nome": "Kaiber",
+        "descricao": "Crie vídeos a partir de imagens ou vídeos já existentes com IA.",
+        "categoria": "Criação de Vídeos",
+        "link": "https://kaiber.ai",
+        "imagem": "https://kaiber.ai/logo.png"
+    },
+    {
+        "nome": "Avatarify",
+        "descricao": "Transforme-se em qualquer pessoa usando IA e deepfake.",
+        "categoria": "Criação de Vídeos",
+        "link": "https://avatarify.ai",
+        "imagem": "https://avatarify.ai/logo.png"
+    },
+    {
+        "nome": "Magisto",
+        "descricao": "Crie vídeos de maneira rápida e fácil com a ajuda de IA.",
+        "categoria": "Criação de Vídeos",
+        "link": "https://www.magisto.com",
+        "imagem": "https://www.magisto.com/logo.png"
+    },
+    {
+        "nome": "Podcastle",
+        "descricao": "Crie podcasts com facilidade usando IA para edição e gravação.",
+        "categoria": "Criação de Áudio",
+        "link": "https://www.podcastle.ai",
+        "imagem": "https://www.podcastle.ai/logo.png"
+    },
+    {
+        "nome": "Rev AI",
+        "descricao": "Transcrição de áudio e vídeo precisa e rápida usando IA.",
+        "categoria": "Transcrição de Áudio",
+        "link": "https://www.rev.com/ai",
+        "imagem": "https://www.rev.com/ai/logo.png"
     }
 ]

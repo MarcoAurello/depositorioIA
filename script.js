@@ -27,10 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderAIs(data) {
         aiList.innerHTML = data.map(item => `
             <div class="ai-card">
+                   <a href='${item.imagem}'></a>
                 <h2>${item.nome}</h2>
                 <p>${item.descricao}</p>
                 <p><strong>Categoria:</strong> ${item.categoria}</p>
-                <a href="${item.link}" target="_blank">Testar</a>
+                <a href="${item.link}" target="_blank">Conhecer IA</a>
             </div>
         `).join('');
     }
