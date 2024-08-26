@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         function atualizarNumeroAleatorio() {
-            const numeroAleatorio = Math.floor(Math.random() * 21) + 2;
+            const numeroAleatorio = Math.floor(Math.random() * 9) + 2;
             document.getElementById('random-number').innerText = `Visitantes online: ${numeroAleatorio}`;
         }
         

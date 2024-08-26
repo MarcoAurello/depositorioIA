@@ -4,86 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Reseta estilos básicos e define o layout de base */
-body, h1, select, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Define o estilo para o header */
-  header {
-    padding: 20px;
-    background-color: #f4f4f4; /* Cor de fundo clara para o header */
-    text-align: center; /* Centraliza o texto e outros elementos */
-  }
-  
-  /* Ajusta o tamanho da fonte do h1 para caber na tela em dispositivos móveis */
-  header h1 {
-    font-size: 24px; /* Tamanho da fonte padrão */
-    margin-bottom: 10px; /* Espaçamento abaixo do h1 */
-  }
-  
-  /* Estiliza o select e o botão */
-  header select, header button {
-    font-size: 16px; /* Tamanho da fonte dos elementos */
-    padding: 10px;
-    margin: 10px 0; /* Espaçamento vertical */
-  }
-  
-  /* Responsividade para dispositivos móveis */
-  @media (max-width: 600px) {
-    header h1 {
-      font-size: 20px; /* Diminui o tamanho da fonte em telas menores */
-    }
-  
-    header select, header button {
-      font-size: 14px; /* Diminui o tamanho da fonte para melhorar a legibilidade */
-      width: 100%; /* Faz com que o select e o botão ocupem toda a largura disponível */
-    }
-  }
-  
-  /* Adicionalmente, você pode ajustar o botão para torná-lo mais responsivo */
-  .btn-enviar-sugestao {
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none;
-    border-radius: 5px; /* Bordas arredondadas do botão */
-    cursor: pointer; /* Muda o cursor para uma mãozinha quando passa sobre o botão */
-  }
-  
-  .btn-enviar-sugestao:hover {
-    background-color: #0056b3; /* Cor de fundo do botão quando está em foco */
-  }
 
-  .topo-fixo {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#random-number {
-    font-size: 18px;
-    font-weight: bold;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(37, 37, 187); /* Fundo azul */
-    color: white;
-    padding: 10px;
-    z-index: 1000;
-    text-align: center;
-}
-
-  
-
+/* Estilos gerais do body */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -91,6 +13,7 @@ body {
     color: #e0e0e0; /* Texto claro */
 }
 
+/* Define o estilo para o header */
 header {
     background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente escuro */
     color: #fff;
@@ -99,25 +22,34 @@ header {
     border-bottom: 2px solid rgba(46, 139, 255, 0.6); /* Borda com contraste */
 }
 
+/* Títulos no header */
 header h1 {
     margin-bottom: 20px;
     font-size: 2.5em;
     font-weight: bold;
 }
 
-header input[type="text"],
-header select {
+/* Estilo para o select e o botão dentro do header */
+header select, header button {
+    font-size: 16px;
     padding: 12px 20px;
+    margin: 10px 0;
     border: none;
     border-radius: 25px;
-    width: 80%;
-    max-width: 600px;
-    margin-bottom: 10px;
-    font-size: 16px;
     background: #1c1c1c; /* Fundo escuro */
     color: #e0e0e0; /* Texto claro */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
     transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+header select {
+    width: 80%;
+    max-width: 600px;
+}
+
+header input[type="text"] {
+    width: 80%;
+    max-width: 600px;
 }
 
 header input[type="text"]::placeholder {
@@ -131,58 +63,21 @@ header select:focus {
     background-color: #292929; /* Fundo mais claro ao focar */
 }
 
-header select {
-    background: #1c1c1c;
-    color: #e0e0e0;
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 20px; /* Diminui o tamanho da fonte em telas menores */
+    }
+
+    header select, header button {
+        font-size: 14px; /* Diminui o tamanho da fonte para melhorar a legibilidade */
+        width: 100%; /* Faz com que o select e o botão ocupem toda a largura disponível */
+    }
 }
 
-header select option {
-    padding: 10px;
-    background-color: #121212; /* Opções com fundo escuro */
-    color: #e0e0e0;
-}
-
-main {
-    padding: 20px;
-}
-
-.ai-card {
-    background: #1c1c1c; /* Fundo escuro */
-    border: 1px solid #333; /* Borda sutil */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra mais intensa */
-    margin-bottom: 20px;
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.ai-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Destaque ao passar o mouse */
-}
-
-.ai-card h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.ai-card p {
-    margin-bottom: 10px;
-}
-
-.ai-card a {
-    color: #4da6ff; /* Links em azul claro */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.ai-card a:hover {
-    text-decoration: underline;
-}
-
+/* Estilo do botão de sugestão */
 .btn-enviar-sugestao {
-    padding: 10px 20px;
-    background-color: #4da6ff; /* Botão azul claro */
+    background-color: #4da6ff; /* Cor de fundo do botão */
     color: white;
     border: none;
     border-radius: 5px;
@@ -254,6 +149,7 @@ main {
     cursor: pointer;
 }
 
+/* Estilo da imagem */
 .imagem-container {
     display: flex;
     justify-content: center;
@@ -269,6 +165,24 @@ main {
     object-fit: cover;
 }
 
+.ai-card a {
+    color: #4da6ff; /* Links em azul claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.ai-card {
+    flex: 1 1 calc(50% - 20px);
+    background: #1c1c1c; /* Fundo escuro */
+    border: 1px solid #333; /* Borda sutil */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra mais intensa */
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
 /* Layout responsivo para as cards */
 @media (min-width: 768px) {
     main {
@@ -279,6 +193,37 @@ main {
 
     .ai-card {
         flex: 1 1 calc(50% - 20px);
+        background: #1c1c1c; /* Fundo escuro */
+        border: 1px solid #333; /* Borda sutil */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra mais intensa */
+        margin-bottom: 20px;
+        padding: 20px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .ai-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Destaque ao passar o mouse */
+    }
+
+    .ai-card h2 {ai-list
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .ai-card p {
+        margin-bottom: 10px;
+    }
+
+    .ai-card a {
+        color: #4da6ff; /* Links em azul claro */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .ai-card a:hover {
+        text-decoration: underline;
     }
 }
 
@@ -286,4 +231,32 @@ main {
     .ai-card {
         flex: 1 1 calc(33.333% - 20px);
     }
+}
+
+/* Estilos do topo fixo */
+.topo-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo do número de pessoas */
+#random-number {
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 37, 187); /* Fundo azul */
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    text-align: center;
 }
