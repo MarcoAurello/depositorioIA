@@ -23,6 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
             aiList.innerHTML = '<p>Erro ao carregar os dados. Tente novamente mais tarde.</p>';
         });
 
+
+        function atualizarNumeroAleatorio() {
+            const numeroAleatorio = Math.floor(Math.random() * 21) + 2;
+            document.getElementById('random-number').innerText = `Visitantes online: ${numeroAleatorio}`;
+        }
+        
+        // Atualiza o número imediatamente ao carregar a página
+        atualizarNumeroAleatorio();
+        
+        // Atualiza o número a cada 5 segundos
+        setInterval(atualizarNumeroAleatorio, 5000);
+
     // Função para renderizar AIs
     function renderAIs(data) {
         aiList.innerHTML = data.map(item => `

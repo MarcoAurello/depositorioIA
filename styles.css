@@ -55,6 +55,33 @@ body, h1, select, button {
   .btn-enviar-sugestao:hover {
     background-color: #0056b3; /* Cor de fundo do botão quando está em foco */
   }
+
+  .topo-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#random-number {
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 37, 187); /* Fundo azul */
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    text-align: center;
+}
+
   
 
 body {
